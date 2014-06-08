@@ -1,11 +1,11 @@
-var titulo = "nhola mundo";
+var titulo = "RETO1";
 
 $("#titulo").append(titulo);
 
 $("#guardar").click(function(){
 	var inp = $("#cont").val();
-	alert(inp);
+	
 
-$('#input').append('<li>elnombre</li>');	
+$('ul').append('<li></li>');	
 
 });
